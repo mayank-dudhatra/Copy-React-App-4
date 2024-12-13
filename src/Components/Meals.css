@@ -1,0 +1,150 @@
+/* Meals.css */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fb;
+    color: #333;
+  }
+  
+  .meals-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .meals-container h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Search Input */
+  .search-input {
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid #007BFF;
+    outline: none;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Filter Select */
+  .filter-select {
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid #007BFF;
+    outline: none;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .filter-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Meal Cards */
+  .meal-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Meal Card Styles */
+  .meal-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .meal-card-content {
+    padding: 20px;
+  }
+  
+  .meal-card-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .meal-card-content p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .view-recipe-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-recipe-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Meal Details */
+  .meal-details {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .meal-details h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .meal-details img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+  
+  .meal-details p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+  

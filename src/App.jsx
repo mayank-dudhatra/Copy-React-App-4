@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Meals from './Components/Meals.jsx';
+// import Meals from './Components/MealComponent.jsx';
+import Meals from './Components/Meals.jsx'
 import Cocktails from './Components/Cocktails.jsx';
 import Potter from './Components/Potter.jsx';
 import IndianBanks from './Components/IndianBanks.jsx';
