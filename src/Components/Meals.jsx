@@ -11,6 +11,7 @@ const Meals = () => {
       .then((data) => {
         setMeals(data.meals);
         setLoading(false);
+        console.log(data)
       })
       .catch((err) => console.error(err));
   }, []);

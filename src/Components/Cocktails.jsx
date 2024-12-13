@@ -34,6 +34,7 @@ const Cocktails = () => {
         <ul>
           {filteredCocktails.map((cocktail) => (
             <li key={cocktail.idDrink}>{cocktail.strDrink}</li>
+            
           ))}
         </ul>
       )}
